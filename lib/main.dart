@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tahir_frontend/fab.dart';
+import 'package:tahir_frontend/nested_row_col.dart';
 import 'package:tahir_frontend/row_col.dart';
 
 import 'appbar.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: RowColDemo(),
+      home: NestedRowCol(),
     );
   }
 }
