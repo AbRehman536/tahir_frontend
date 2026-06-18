@@ -34,7 +34,7 @@ class NestedRowCol extends StatelessWidget {
                 Column(
                   children: [
                     Text("Abdullah"),
-                    Text("Islamabad")
+                    Text("Islamabadd")
                   ],
                 ),
                 SizedBox(width: 150,),
