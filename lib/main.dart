@@ -6,6 +6,7 @@ import 'package:tahir_frontend/nested_row_col.dart';
 import 'package:tahir_frontend/row_col.dart';
 import 'package:tahir_frontend/selctions/multiple.dart';
 import 'package:tahir_frontend/selctions/single.dart';
+import 'package:tahir_frontend/settings.dart';
 import 'package:tahir_frontend/textField.dart';
 
 import 'appbar.dart';
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MultipleSelection(),
+      home: SettingsScreen(),
     );
   }
 }
