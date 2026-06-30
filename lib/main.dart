@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tahir_frontend/fab.dart';
 import 'package:tahir_frontend/images.dart';
 import 'package:tahir_frontend/listTile.dart';
+import 'package:tahir_frontend/menus.dart';
 import 'package:tahir_frontend/nested_row_col.dart';
 import 'package:tahir_frontend/row_col.dart';
 import 'package:tahir_frontend/selctions/multiple.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -41,7 +43,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SettingsScreen(),
+      home: MenusScreen(),
     );
   }
 }
