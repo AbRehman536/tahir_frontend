@@ -4,6 +4,7 @@ import 'package:tahir_frontend/images.dart';
 import 'package:tahir_frontend/listTile.dart';
 import 'package:tahir_frontend/menus.dart';
 import 'package:tahir_frontend/nested_row_col.dart';
+import 'package:tahir_frontend/page_view.dart';
 import 'package:tahir_frontend/row_col.dart';
 import 'package:tahir_frontend/selctions/multiple.dart';
 import 'package:tahir_frontend/selctions/single.dart';
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MenusScreen(),
+      home: PageViewScreen(),
     );
   }
 }
