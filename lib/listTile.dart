@@ -13,6 +13,7 @@ class ChatsScreen extends StatelessWidget {
         foregroundColor: Colors.black,
       ),
       body: ListView.builder(
+
         itemCount: 6,
         itemBuilder: (BuildContext context, int index) {
           return Card(

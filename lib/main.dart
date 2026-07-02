@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tahir_frontend/fab.dart';
+import 'package:tahir_frontend/gridView/grid_builder.dart';
+import 'package:tahir_frontend/gridView/grid_count.dart';
+import 'package:tahir_frontend/gridView/grid_staggered.dart';
 import 'package:tahir_frontend/images.dart';
 import 'package:tahir_frontend/listTile.dart';
 import 'package:tahir_frontend/menus.dart';
@@ -44,7 +47,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: PageViewScreen(),
+      home: GridStaggered(),
     );
   }
 }
